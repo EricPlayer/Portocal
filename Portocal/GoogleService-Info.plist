@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>416665303699-sjc7mt4k0qlouu4b6fmhhsaj4kn5ge62.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.416665303699-sjc7mt4k0qlouu4b6fmhhsaj4kn5ge62</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBig8SGo7EsRKknRCCRCLae7GM-7S6kw0g</string>
+	<key>GCM_SENDER_ID</key>
+	<string>416665303699</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Duebros.Portocal</string>
+	<key>PROJECT_ID</key>
+	<string>portocal-9a18</string>
+	<key>STORAGE_BUCKET</key>
+	<string>portocal-9a18.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:416665303699:ios:09d751508b66bd7efcab66</string>
+	<key>DATABASE_URL</key>
+	<string>https://portocal-9a18.firebaseio.com</string>
+</dict>
+</plist>

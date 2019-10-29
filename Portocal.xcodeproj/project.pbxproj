@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		071C1F1B2356C2E300C6C610 /* EntireController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071C1F1A2356C2E300C6C610 /* EntireController.swift */; };
+		071C1F5A2358D45F00C6C610 /* PortocalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071C1F592358D45F00C6C610 /* PortocalData.swift */; };
+		2944886E23567A3C00259DB4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2944886D23567A3C00259DB4 /* GoogleService-Info.plist */; };
+		5D17A20A9677790397D39E6B /* Pods_Portocal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E01AEE7D0F80913821F0314 /* Pods_Portocal.framework */; };
+		9847AB282340E98700D649E7 /* AboutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9847AB272340E98700D649E7 /* AboutController.swift */; };
+		9847AB3023429A7000D649E7 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9847AB2F23429A7000D649E7 /* CustomCell.swift */; };
+		9847AB34234BF3F800D649E7 /* DatabaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9847AB33234BF3F800D649E7 /* DatabaseController.swift */; };
+		98A34EB02340C24D00C3D647 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A34EAF2340C24D00C3D647 /* AppDelegate.swift */; };
+		98A34EB52340C24D00C3D647 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98A34EB32340C24D00C3D647 /* Main.storyboard */; };
+		98A34EB72340C24D00C3D647 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98A34EB62340C24D00C3D647 /* Assets.xcassets */; };
+		98A34EBA2340C24D00C3D647 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98A34EB82340C24D00C3D647 /* LaunchScreen.storyboard */; };
+		98A34EC62340C2EC00C3D647 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A34EC52340C2EC00C3D647 /* Protocols.swift */; };
+		98A34EC82340C30A00C3D647 /* MenuOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A34EC72340C30A00C3D647 /* MenuOption.swift */; };
+		98A34ECA2340C32D00C3D647 /* ContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A34EC92340C32D00C3D647 /* ContainerController.swift */; };
+		98A34ECC2340C35900C3D647 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A34ECB2340C35900C3D647 /* HomeController.swift */; };
+		98A34ECE2340C37500C3D647 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A34ECD2340C37500C3D647 /* MenuController.swift */; };
+		98A34ED02340C39200C3D647 /* SupportController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A34ECF2340C39200C3D647 /* SupportController.swift */; };
+		98A34ED22340C3C800C3D647 /* MenuOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A34ED12340C3C800C3D647 /* MenuOptionCell.swift */; };
+		98A34ED42340D0FB00C3D647 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A34ED32340D0FB00C3D647 /* Extensions.swift */; };
+		98E24A8D2351D13C00AA33FB /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E24A8C2351D13C00AA33FB /* Service.swift */; };
+		98E24A912351D2DB00AA33FB /* PortocalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E24A902351D2DB00AA33FB /* PortocalCell.swift */; };
+		98E24A932351D38300AA33FB /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E24A922351D38300AA33FB /* InfoView.swift */; };
+		98E24A952351D51C00AA33FB /* PortocalInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E24A942351D51C00AA33FB /* PortocalInfoController.swift */; };
+		98E24A972351D69B00AA33FB /* Portocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E24A962351D69B00AA33FB /* Portocal.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		071C1F1A2356C2E300C6C610 /* EntireController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntireController.swift; sourceTree = "<group>"; };
+		071C1F592358D45F00C6C610 /* PortocalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortocalData.swift; sourceTree = "<group>"; };
+		0E01AEE7D0F80913821F0314 /* Pods_Portocal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Portocal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2944886D23567A3C00259DB4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4DB88607369D4A72FAD58DAA /* Pods-Portocal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Portocal.debug.xcconfig"; path = "Target Support Files/Pods-Portocal/Pods-Portocal.debug.xcconfig"; sourceTree = "<group>"; };
+		9847AB272340E98700D649E7 /* AboutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutController.swift; sourceTree = "<group>"; };
+		9847AB2F23429A7000D649E7 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		9847AB33234BF3F800D649E7 /* DatabaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseController.swift; sourceTree = "<group>"; };
+		98A34EAC2340C24D00C3D647 /* Portocal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Portocal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98A34EAF2340C24D00C3D647 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		98A34EB42340C24D00C3D647 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98A34EB62340C24D00C3D647 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98A34EB92340C24D00C3D647 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		98A34EBB2340C24D00C3D647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98A34EC52340C2EC00C3D647 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		98A34EC72340C30A00C3D647 /* MenuOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOption.swift; sourceTree = "<group>"; };
+		98A34EC92340C32D00C3D647 /* ContainerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerController.swift; sourceTree = "<group>"; };
+		98A34ECB2340C35900C3D647 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		98A34ECD2340C37500C3D647 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		98A34ECF2340C39200C3D647 /* SupportController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportController.swift; sourceTree = "<group>"; };
+		98A34ED12340C3C800C3D647 /* MenuOptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOptionCell.swift; sourceTree = "<group>"; };
+		98A34ED32340D0FB00C3D647 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		98E24A8C2351D13C00AA33FB /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		98E24A902351D2DB00AA33FB /* PortocalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortocalCell.swift; sourceTree = "<group>"; };
+		98E24A922351D38300AA33FB /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		98E24A942351D51C00AA33FB /* PortocalInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortocalInfoController.swift; sourceTree = "<group>"; };
+		98E24A962351D69B00AA33FB /* Portocal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Portocal.swift; sourceTree = "<group>"; };
+		E2FA06D7AF12111DCD5CA9BE /* Pods-Portocal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Portocal.release.xcconfig"; path = "Target Support Files/Pods-Portocal/Pods-Portocal.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98A34EA92340C24D00C3D647 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D17A20A9677790397D39E6B /* Pods_Portocal.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BB39B9876D5A62C010B806B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DB88607369D4A72FAD58DAA /* Pods-Portocal.debug.xcconfig */,
+				E2FA06D7AF12111DCD5CA9BE /* Pods-Portocal.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		98A34EA32340C24D00C3D647 = {
+			isa = PBXGroup;
+			children = (
+				98E24A8F2351D2C000AA33FB /* Service */,
+				98E24A8E2351D2BD00AA33FB /* View */,
+				98A34EC42340C29800C3D647 /* Utils */,
+				98A34EC32340C29400C3D647 /* Model */,
+				98A34EC22340C29100C3D647 /* Controller */,
+				98A34EAE2340C24D00C3D647 /* Portocal */,
+				98A34EAD2340C24D00C3D647 /* Products */,
+				6BB39B9876D5A62C010B806B /* Pods */,
+				A06F527031A68D798861C9ED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		98A34EAD2340C24D00C3D647 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98A34EAC2340C24D00C3D647 /* Portocal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98A34EAE2340C24D00C3D647 /* Portocal */ = {
+			isa = PBXGroup;
+			children = (
+				2944886D23567A3C00259DB4 /* GoogleService-Info.plist */,
+				9847AB2F23429A7000D649E7 /* CustomCell.swift */,
+				98A34ED12340C3C800C3D647 /* MenuOptionCell.swift */,
+				98A34EAF2340C24D00C3D647 /* AppDelegate.swift */,
+				98A34EB32340C24D00C3D647 /* Main.storyboard */,
+				98A34EB62340C24D00C3D647 /* Assets.xcassets */,
+				98A34EB82340C24D00C3D647 /* LaunchScreen.storyboard */,
+				98A34EBB2340C24D00C3D647 /* Info.plist */,
+			);
+			path = Portocal;
+			sourceTree = "<group>";
+		};
+		98A34EC22340C29100C3D647 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				98A34EC92340C32D00C3D647 /* ContainerController.swift */,
+				98A34ECB2340C35900C3D647 /* HomeController.swift */,
+				98A34ECD2340C37500C3D647 /* MenuController.swift */,
+				9847AB272340E98700D649E7 /* AboutController.swift */,
+				98A34ECF2340C39200C3D647 /* SupportController.swift */,
+				9847AB33234BF3F800D649E7 /* DatabaseController.swift */,
+				98E24A942351D51C00AA33FB /* PortocalInfoController.swift */,
+				071C1F1A2356C2E300C6C610 /* EntireController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		98A34EC32340C29400C3D647 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				98A34EC72340C30A00C3D647 /* MenuOption.swift */,
+				98E24A962351D69B00AA33FB /* Portocal.swift */,
+				071C1F592358D45F00C6C610 /* PortocalData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		98A34EC42340C29800C3D647 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				98A34EC52340C2EC00C3D647 /* Protocols.swift */,
+				98A34ED32340D0FB00C3D647 /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		98E24A8E2351D2BD00AA33FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				98E24A902351D2DB00AA33FB /* PortocalCell.swift */,
+				98E24A922351D38300AA33FB /* InfoView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		98E24A8F2351D2C000AA33FB /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				98E24A8C2351D13C00AA33FB /* Service.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		A06F527031A68D798861C9ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E01AEE7D0F80913821F0314 /* Pods_Portocal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98A34EAB2340C24D00C3D647 /* Portocal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98A34EBE2340C24D00C3D647 /* Build configuration list for PBXNativeTarget "Portocal" */;
+			buildPhases = (
+				E989649D63A2E89A4D0B51C6 /* [CP] Check Pods Manifest.lock */,
+				98A34EA82340C24D00C3D647 /* Sources */,
+				98A34EA92340C24D00C3D647 /* Frameworks */,
+				98A34EAA2340C24D00C3D647 /* Resources */,
+				3BEDE62D2E3058501F779A03 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Portocal;
+			productName = Portocal;
+			productReference = 98A34EAC2340C24D00C3D647 /* Portocal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98A34EA42340C24D00C3D647 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Watashi NNWU Ltd";
+				TargetAttributes = {
+					98A34EAB2340C24D00C3D647 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 98A34EA72340C24D00C3D647 /* Build configuration list for PBXProject "Portocal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98A34EA32340C24D00C3D647;
+			productRefGroup = 98A34EAD2340C24D00C3D647 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98A34EAB2340C24D00C3D647 /* Portocal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98A34EAA2340C24D00C3D647 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98A34EBA2340C24D00C3D647 /* LaunchScreen.storyboard in Resources */,
+				2944886E23567A3C00259DB4 /* GoogleService-Info.plist in Resources */,
+				98A34EB72340C24D00C3D647 /* Assets.xcassets in Resources */,
+				98A34EB52340C24D00C3D647 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BEDE62D2E3058501F779A03 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Portocal/Pods-Portocal-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Portocal/Pods-Portocal-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Portocal/Pods-Portocal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E989649D63A2E89A4D0B51C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Portocal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98A34EA82340C24D00C3D647 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				071C1F5A2358D45F00C6C610 /* PortocalData.swift in Sources */,
+				98A34EB02340C24D00C3D647 /* AppDelegate.swift in Sources */,
+				98E24A912351D2DB00AA33FB /* PortocalCell.swift in Sources */,
+				98E24A8D2351D13C00AA33FB /* Service.swift in Sources */,
+				9847AB3023429A7000D649E7 /* CustomCell.swift in Sources */,
+				9847AB282340E98700D649E7 /* AboutController.swift in Sources */,
+				98A34ED42340D0FB00C3D647 /* Extensions.swift in Sources */,
+				9847AB34234BF3F800D649E7 /* DatabaseController.swift in Sources */,
+				98A34EC82340C30A00C3D647 /* MenuOption.swift in Sources */,
+				98A34EC62340C2EC00C3D647 /* Protocols.swift in Sources */,
+				98A34ED02340C39200C3D647 /* SupportController.swift in Sources */,
+				98A34ECA2340C32D00C3D647 /* ContainerController.swift in Sources */,
+				98E24A952351D51C00AA33FB /* PortocalInfoController.swift in Sources */,
+				98A34ED22340C3C800C3D647 /* MenuOptionCell.swift in Sources */,
+				98E24A972351D69B00AA33FB /* Portocal.swift in Sources */,
+				071C1F1B2356C2E300C6C610 /* EntireController.swift in Sources */,
+				98A34ECE2340C37500C3D647 /* MenuController.swift in Sources */,
+				98E24A932351D38300AA33FB /* InfoView.swift in Sources */,
+				98A34ECC2340C35900C3D647 /* HomeController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		98A34EB32340C24D00C3D647 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98A34EB42340C24D00C3D647 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		98A34EB82340C24D00C3D647 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98A34EB92340C24D00C3D647 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98A34EBC2340C24D00C3D647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		98A34EBD2340C24D00C3D647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98A34EBF2340C24D00C3D647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DB88607369D4A72FAD58DAA /* Pods-Portocal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Portocal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Watashi.Portocal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98A34EC02340C24D00C3D647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2FA06D7AF12111DCD5CA9BE /* Pods-Portocal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Portocal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Watashi.Portocal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98A34EA72340C24D00C3D647 /* Build configuration list for PBXProject "Portocal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98A34EBC2340C24D00C3D647 /* Debug */,
+				98A34EBD2340C24D00C3D647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98A34EBE2340C24D00C3D647 /* Build configuration list for PBXNativeTarget "Portocal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98A34EBF2340C24D00C3D647 /* Debug */,
+				98A34EC02340C24D00C3D647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98A34EA42340C24D00C3D647 /* Project object */;
+}
